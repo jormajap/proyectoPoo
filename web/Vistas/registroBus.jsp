@@ -26,20 +26,23 @@
             <div class="modal-body">
                 <form>
                     <div class="mb-3">
-                        <label class="form-label">Placa</label>
-                        <input type="text" class="form-control" id="username" name="username" placeholder="Username" />
+                        <label class="form-label float-start">Placa</label>
+                        <input type="text" class="form-control" id="username" name="username" placeholder="Ingrese placa" />
                     </div>
                     <div class="mb-3">
-                        <label class="form-label">Modelo</label>
-                        <input type="password" class="form-control" id="password" name="password" placeholder="Password" />
+                        <label class="form-label float-start">Modelo</label>
+                        <input type="text" class="form-control" id="username" name="username" placeholder="Ingrese Modelo" />
                     </div>
-                    <div class="mb-3 form-check">
-                        <input type="checkbox" class="form-check-input" id="rememberMe" />
-                        <label class="form-check-label" for="rememberMe">Remember me</label>
+                    <div class="mb-3">
+                        <label class="form-label float-start">Marca</label>
+                        <input type="text" class="form-control" id="username" name="username" placeholder="Ingrese Marca" />
                     </div>
-                    <div class="modal-footer d-block">
-                        <p class="float-start">Not yet account <a href="#">Sign Up</a></p>
-                        <button type="submit" class="btn btn-warning float-end">Submit</button>
+                    <div class="mb-3">
+                        <label class="form-label float-start">Asientos</label>
+                        <input type="text" class="form-control" id="username" name="username" placeholder="Nro. de Asientos" />
+                    </div>
+                    <div class="modal-footer d-block">                        
+                        <button type="submit" class="btn btn-warning float-end">Agregar</button>
                     </div>
                 </form>
             </div>
