@@ -42,7 +42,9 @@
                         <input type="text" class="form-control" id="username" name="username" placeholder="Nro. de Asientos" />
                     </div>
                     <div class="modal-footer d-block">                        
+                        <button type="submit" class="btn btn-warning float-end">Cancelar</button>
                         <button type="submit" class="btn btn-warning float-end">Agregar</button>
+                        
                     </div>
                 </form>
             </div>
